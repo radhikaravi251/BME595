@@ -7,16 +7,16 @@ This function was tested with the example discussed at the following link: https
 ## Logic Gates
 ### AND:
 This logic gate is implemented using a neural network with the following characteristics:  
-![](https://github.com/radhikaravi251/BME595/blob/Asmt2/AND.jpg)
+![](https://github.com/radhikaravi251/BME595/blob/Asmt2/Asmt2/AND.jpg)
 
 ### OR:
 This logic gate is implemented using a neural network with the following characteristics:  
-![](https://github.com/radhikaravi251/BME595/blob/Asmt2/OR.jpg)
+![](https://github.com/radhikaravi251/BME595/blob/Asmt2/Asmt2/OR.jpg)
 
 ### NOT:
 This logic gate is implemented using a neural network with the following characteristics:  
-![](https://github.com/radhikaravi251/BME595/blob/Asmt2/NOT.jpg)
+![](https://github.com/radhikaravi251/BME595/blob/Asmt2/Asmt2/NOT.jpg)
 
 ### XOR:
 This logic gate is implemented as a breakdown of XOR as: (*x* XOR *y*) = (*x* AND *~y*) OR (*~x* AND *y*). So, the hidden layer nodes denote: *h1* = (*x* AND *~y*) and *h2* = (*~x* AND *y*). The neural network has the following characteristics:  
-![](https://github.com/radhikaravi251/BME595/blob/Asmt2/XOR.jpg)
+![](https://github.com/radhikaravi251/BME595/blob/Asmt2/Asmt2/XOR.jpg)
