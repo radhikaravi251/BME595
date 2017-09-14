@@ -41,6 +41,6 @@ The weights obtained previously are shown in:
 ![](https://github.com/radhikaravi251/BME595/blob/Asmt2/Asmt2/XOR.jpg)  
 The corresponding newly obtained weights are:  
 Old: Input to Hidden: (-40, 70, -40), (-40, -40, 70);  Hidden to Output: (-20, 30, 30)  
-New: Input to Hidden: (2.8041, 5.7339, -5.5726), (-3.5199, 6.4355, -6.4993);  Hidden to Output: (4.4238, -9.2802, 9.3402)  
+New: Input to Hidden: (2.8041, 5.7339, -5.5726), (-3.5199, 6.4355, -6.4993);  Hidden to Output: (4.4238, -9.2802, 9.3402)   
 
 It can be clearly observed that the relative values of the weights as set manually and as obtained by training the neural network show the same trend, thus leading to the correct results. 
