@@ -1,15 +1,12 @@
-# HW 3: Radhika Ravi 0029200602
+# HW 4: Radhika Ravi 0029200602
 
-## Backpropagation
+## Neural Network developed in HW03
 In order to run the python script:  
 import torch
 from NeuralNetwork import NeuralNetwork
-from logicGates import AND
-from logicGates import OR
-from logicGates import NOT
-from logicGates import XOR
-img2num.py
+import torch
+import sklearn.preprocessing as onehot
 
-The backpropagation works correctly according to the example given in: https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/
+The error for training dataset is obtained to be: **10**
 
 I am currently working on the implementation of training for logic gates and will upload a new version soon.
