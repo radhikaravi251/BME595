@@ -1,15 +1,24 @@
-# HW 3: Radhika Ravi 0029200602
+# Title  
+CNN-based Lane Detection from Highway Imagery Dataset  
 
-## Backpropagation
-In order to run the python script:  
-import torch
-from NeuralNetwork import NeuralNetwork
-from logicGates import AND
-from logicGates import OR
-from logicGates import NOT
-from logicGates import XOR
-img2num.py
+## Team members  
+Yun-Jou Lin(Roselin), Radhika Ravi(radhikaravi251)  
 
-The backpropagation works correctly according to the example given in: https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/
+## Motivation
+Lane detection is one of critical elements in autonomous driving. 
+Currently, there are many sensors used in autonomous driving such as laser scanner, radar, and camera to detect objects.
+However, laser scanners and radars are expensive. 
+Therefore, cameras could be a cost-down option for autonomous driving system.
 
-I am currently working on the implementation of training for logic gates and will upload a new version soon.
+## Goals  
+Identify the lane marking on the highway imagery.  
+![Image1](https://github.com/Roselin/DeepLearning/blob/master/Project/flea2_77_front_2017-05-02-134716-0242.jpg)
+
+## Challenges  
+The illumination condition on image could be different from place, weather, and time.
+Therefore, a huge training dataset should be collected to create a robust neural network.
+The target(labelling) of training dataset is difficult to create.  
+Moreover, manual labelling could cause the human errors. 
+Since the lane marking can provide high retro-reflective to laser scanner, we can collect the lane marking point cloud from laser scanners and project to imagery to get the training dataset.
+
+ 
